@@ -45,7 +45,7 @@ h2 {
 
 .button {
     display: inline-block;
-    border: 5px black;
+    border: 5px solid black;
     background: none;
     border-radius: 5px;
     color: black;
