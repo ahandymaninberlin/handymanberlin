@@ -115,9 +115,10 @@ header {
     max-width: 600px;
 }
 
-.section-aboutp{
-    margin-top: 20px;
-    max-width: 800px;
+.section-aboutp {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 /* FOOTER */
