@@ -12,6 +12,13 @@ header {
     padding: 60px 20px;
 }
 
+.logo {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
 section {
     max-width: 900px;
     margin: auto;
