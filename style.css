@@ -9,7 +9,7 @@ header {
     background: #fbed52;
     color: #000000;
     text-align: center;
-    padding: 60px 120px;
+    padding: 60px 20px;
 }
 
 .logo {
@@ -22,7 +22,8 @@ header {
 
 @media (max-width: 768px) {
     .logo {
-        max-width: 400px;
+        max-width: 400px
+        padding: 140px x 20 px;
     }
 }
 section {
