@@ -7,7 +7,7 @@ body {
 
 header {
     background: #fbed52;
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 60px 20px;
 }
@@ -46,7 +46,7 @@ h2 {
 }
 
 .button:hover {
-    background: #1ebc57;
+    background: #3600ff;
 }
 
 ul {
