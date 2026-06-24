@@ -47,6 +47,13 @@ header {
     height: auto;
 }
 
+.hero-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
     header {
