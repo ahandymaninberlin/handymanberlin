@@ -27,6 +27,8 @@ header {
 
     padding: 200px 20px;
     box-sizing: border-box;
+
+    scroll-snap-align: start;
 }
 
 header,
