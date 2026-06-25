@@ -219,13 +219,13 @@ header {
     flex-direction: column;
     align-items: flex-start; /* KEY FIX */
     gap: 10px;
-    text-align: left; /* KEY FIX */
+    text-align: center; /* KEY FIX */
 }
 
 .contact-email,
 .contact-phone {
-    font-size: 1.1rem;
-    margin: 10px 0;
+    font-size: 1.3rem;
+    margin: 3px 0;
 }
 
 .contact-icons {
