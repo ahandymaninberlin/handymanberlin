@@ -64,17 +64,39 @@ header {
         max-width: 400px;
     }
 
+    .image1 {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .reviews-section {
+        background: #fbed52;
+        min-height: auto;
+        padding: 80px 20px;
+    }
+
     .reviews-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+        margin-top: 40px;
     }
 
     .review {
-        padding: 30px 0;
+        padding: 30px 10px;
+        border-right: none !important;
+        border-left: none;
     }
 
     .review:not(:last-child) {
-        border-right: none;
+        border-right: none !important;
         border-bottom: 5px solid #000;
+    }
+
+    .review:last-child {
+        border-bottom: none;
     }
 }
 
@@ -137,6 +159,12 @@ header {
 
 .reviews-section {
     background: #fbed52;
+}
+
+.image1 {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
 
 .reviews-grid {
