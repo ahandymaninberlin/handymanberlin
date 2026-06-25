@@ -217,8 +217,9 @@ header {
 .contact-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 300px;
+    align-items: flex-start; /* KEY FIX */
+    gap: 10px;
+    text-align: left; /* KEY FIX */
 }
 
 .contact-email,
