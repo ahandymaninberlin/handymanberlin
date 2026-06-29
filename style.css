@@ -70,19 +70,27 @@ header {
         height: auto;
     }
 
-    .contact-grid{
-        grid-template-columns:1fr;
-        gap:40px;
-    }
+ .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
 
-    .contact-info{
-        align-items:center;
-        text-align:center;
-    }
+/* force left side (contact info) on top */
+.contact-info {
+    grid-row: 1;
+    align-items: center;
+    text-align: center;
+}
 
-    .contact-icons{
-        justify-content:center;
-    }
+/* force right side (form) below */
+.contact-form {
+    grid-row: 2;
+}
+
+/* center icons on mobile */
+.contact-icons {
+    justify-content: center;
+}
 
     .name-row{
         flex-direction:column;
