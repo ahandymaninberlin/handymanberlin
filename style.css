@@ -88,13 +88,14 @@ header {
         flex-direction:column;
     }
 
-    /* ✅ CLEAN REVIEWS MOBILE */
     .reviews-grid {
-        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding: 0 10px;
+        gap: 15px;
     }
 
     .review {
-        padding: 30px 10px;
+        padding: 20px 15px;
     }
 }
 
@@ -154,10 +155,9 @@ header {
     text-align: center;
 }
 
-/* REVIEWS (CLEAN VERSION) */
+/* REVIEWS — GOOGLE STYLE CARDS */
 .reviews-section {
     background: #fbed52;
-    padding: 80px 20px;
 }
 
 .image1 {
@@ -168,37 +168,50 @@ header {
 
 .reviews-grid {
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
 
     margin-top: 40px;
+    gap: 20px;
 }
 
+/* CARD STYLE */
 .review {
-    padding: 30px 40px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+    text-align: left;
 }
 
-/* clean vertical separators only on desktop */
 .review:not(:last-child) {
-    border-right: 5px solid #000;
+    border-right: none;
 }
 
 .review h3 {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .stars {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .stars img {
     width: 120px;
     height: auto;
+    display: block;
 }
 
+.review p {
+    margin: 0;
+}
+
+/* CONTACT */
 .contact-section {
     background: #fff;
 }
