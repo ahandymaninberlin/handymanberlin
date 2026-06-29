@@ -70,6 +70,25 @@ header {
         height: auto;
     }
 
+.contact-grid{
+    grid-template-columns:1fr;
+    gap:40px;
+}
+
+.contact-info{
+    align-items:center;
+    text-align:center;
+}
+
+.contact-icons{
+    justify-content:center;
+}
+
+.name-row{
+    flex-direction:column;
+}
+
+}
     .reviews-section {
         background: #fbed52;
         min-height: auto;
@@ -225,6 +244,7 @@ header {
 .contact-email,
 .contact-phone {
     font-size: 1.3rem;
+    font-weight: 600;
     margin: 3px 0;
 }
 
