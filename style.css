@@ -16,7 +16,7 @@ body {
     overflow-y: scroll;
 }
 section {
-    scroll-margin-top: 0px;
+    scroll-margin-top: 70px;
 }
 .sticky-nav {
     position: fixed;
@@ -68,6 +68,7 @@ section {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     text-align: center;
@@ -83,10 +84,6 @@ header {
 }
 
 /* ALL OTHER SECTIONS (TOP FLOW) */
-section {
-    justify-content: flex-start;
-    padding-top: 60px;
-}
 
 /* LOGO */
 .logo {
@@ -364,6 +361,9 @@ footer {
 /* GALLERY */
 .gallery-section {
     background: #fff;
+    
+    justify-content: flex-start;
+    padding-top: 60px;
 }
 
 .gallery-intro {
