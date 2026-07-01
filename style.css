@@ -16,7 +16,7 @@ body {
     overflow-y: scroll;
 }
 section {
-    scroll-margin-top: 70px;
+    scroll-margin-top: 20px;
 }
 .sticky-nav {
     position: fixed;
